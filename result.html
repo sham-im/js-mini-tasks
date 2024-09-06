@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Result Sheet</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <div class="container mx-auto py-8">
+        <div class="max-w-3xl mx-auto bg-white shadow-lg rounded-lg">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-center text-gray-800">Student Result Sheet</h2>
+                <div class="mt-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div>
+                            <p><strong>Student Name:</strong> John Doe</p>
+                            <p><strong>Roll Number:</strong> 123456</p>
+                        </div>
+                        <div>
+                            <p><strong>Class:</strong> 10th Grade</p>
+                            <p><strong>Session:</strong> 2023-2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 bg-gray-50">
+                <table class="min-w-full bg-white">
+                    <thead>
+                        <tr>
+                            <th class="py-2 text-left text-sm font-semibold text-gray-600">Subject</th>
+                            <th class="py-2 text-left text-sm font-semibold text-gray-600">Marks Obtained</th>
+                            <th class="py-2 text-left text-sm font-semibold text-gray-600">Total Marks</th>
+                            <th class="py-2 text-left text-sm font-semibold text-gray-600">Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b">
+                            <td class="py-2 px-4 text-sm text-gray-700">Mathematics</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">85</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">100</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">A</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-2 px-4 text-sm text-gray-700">Science</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">78</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">100</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">B+</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-2 px-4 text-sm text-gray-700">English</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">92</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">100</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">A+</td>
+                        </tr>
+                        <tr class="border-b">
+                            <td class="py-2 px-4 text-sm text-gray-700">History</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">76</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">100</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">B+</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4 text-sm text-gray-700">Geography</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">88</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">100</td>
+                            <td class="py-2 px-4 text-sm text-gray-700">A</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="p-6 text-center bg-white">
+                <p><strong>Total Marks Obtained:</strong> 419/500</p>
+                <p><strong>Overall Grade:</strong> A</p>
+                <p><strong>Remarks:</strong> Excellent performance! Keep it up!</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
